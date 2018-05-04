@@ -17,8 +17,6 @@ void ProcessImage(unsigned char *img_data, int width, int height, int Pos)
 		int H = wormArg->search_win_size;
 		int W = wormArg->search_win_size;
 		int WD = wormArg->search_win_size / 2;
-		unsigned char *blur = new unsigned char[H*W];
-		unsigned char *img1 = new unsigned char[H*W];
 		register int x1 = GX - WD, y1 = GY - WD;
 		register int x2 = x1 + W, y2 = y1 + H;
 		register int cx, cy, r, c;
@@ -32,6 +30,8 @@ void ProcessImage(unsigned char *img_data, int width, int height, int Pos)
 			y1 = 0;
 		W = x2 - x1;
 		H = y2 - y1;
+		unsigned char *blur = new unsigned char[H*W];
+		unsigned char *img1 = new unsigned char[H*W];
 		for (cx = x1, r = 0; cx < x2; cx++, r++)
 			for (cy = y1, c = 0; cy < y2; cy++, c++)
 			{
