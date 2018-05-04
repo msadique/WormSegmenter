@@ -1,0 +1,496 @@
+g++ -g -o run WormSeg.cpp -lpthread 
+./run -t 1 -f 1000 -e jpg -i ../data/n2_f8/input/
+---------------------------------------------------------------------------------------
+New  Pthread: 1
+New  Frames: 1000
+New  Extension: jpg
+New  Input : ../data/n2_f8/input/
+Total Files Processed = 1000
+main() : creating thread, 0
+Main: program exiting.
+
+Total Process Time :- 5.94828
+Total Area : 410400
+---------------------------------------------------------------------------------------
+./run -t 2 -f 1000 -e jpg -i ../data/n2_f8/input/
+---------------------------------------------------------------------------------------
+New  Pthread: 2
+New  Frames: 1000
+New  Extension: jpg
+New  Input : ../data/n2_f8/input/
+Total Files Processed = 2000
+main() : creating thread, 0
+main() : creating thread, 1
+Main: program exiting.
+
+Total Process Time :- 6.02886
+Total Area : 820082
+---------------------------------------------------------------------------------------
+./run -t 4 -f 1000 -e jpg -i ../data/n2_f8/input/
+---------------------------------------------------------------------------------------
+New  Pthread: 4
+New  Frames: 1000
+New  Extension: jpg
+New  Input : ../data/n2_f8/input/
+Total Files Processed = 4000
+main() : creating thread, 0
+main() : creating thread, 1
+main() : creating thread, 2
+main() : creating thread, 3
+Main: program exiting.
+
+Total Process Time :- 6.13948
+Total Area : 1872392
+---------------------------------------------------------------------------------------
+./run -t 8 -f 1000 -e jpg -i ../data/n2_f8/input/
+---------------------------------------------------------------------------------------
+New  Pthread: 8
+New  Frames: 1000
+New  Extension: jpg
+New  Input : ../data/n2_f8/input/
+Total Files Processed = 8000
+main() : creating thread, 0
+main() : creating thread, 1
+main() : creating thread, 2
+main() : creating thread, 3
+main() : creating thread, 4
+main() : creating thread, 5
+main() : creating thread, 6
+main() : creating thread, 7
+Main: program exiting.
+
+Total Process Time :- 6.86379
+Total Area : 3610810
+---------------------------------------------------------------------------------------
+./run -t 12 -f 1000 -e jpg -i ../data/n2_f8/input/
+---------------------------------------------------------------------------------------
+New  Pthread: 12
+New  Frames: 1000
+New  Extension: jpg
+New  Input : ../data/n2_f8/input/
+Total Files Processed = 12000
+main() : creating thread, 0
+main() : creating thread, 1
+main() : creating thread, 2
+main() : creating thread, 3
+main() : creating thread, 4
+main() : creating thread, 5
+main() : creating thread, 6
+main() : creating thread, 7
+main() : creating thread, 8
+main() : creating thread, 9
+main() : creating thread, 10
+main() : creating thread, 11
+Main: program exiting.
+
+Total Process Time :- 7.53171
+Total Area : 5300752
+---------------------------------------------------------------------------------------
+./run -t 24 -f 1000 -e jpg -i ../data/n2_f8/input/
+---------------------------------------------------------------------------------------
+New  Pthread: 24
+New  Frames: 1000
+New  Extension: jpg
+New  Input : ../data/n2_f8/input/
+Total Files Processed = 24000
+main() : creating thread, 0
+main() : creating thread, 1
+main() : creating thread, 2
+main() : creating thread, 3
+main() : creating thread, 4
+main() : creating thread, 5
+main() : creating thread, 6
+main() : creating thread, 7
+main() : creating thread, 8
+main() : creating thread, 9
+main() : creating thread, 10
+main() : creating thread, 11
+main() : creating thread, 12
+main() : creating thread, 13
+main() : creating thread, 14
+main() : creating thread, 15
+main() : creating thread, 16
+main() : creating thread, 17
+main() : creating thread, 18
+main() : creating thread, 19
+main() : creating thread, 20
+main() : creating thread, 21
+main() : creating thread, 22
+main() : creating thread, 23
+Main: program exiting.
+
+Total Process Time :- 8.5178
+Total Area : 10664892
+---------------------------------------------------------------------------------------
+./run -t 48 -f 1000 -e jpg -i ../data/n2_f8/input/
+---------------------------------------------------------------------------------------
+New  Pthread: 48
+New  Frames: 1000
+New  Extension: jpg
+New  Input : ../data/n2_f8/input/
+Total Files Processed = 48000
+main() : creating thread, 0
+main() : creating thread, 1
+main() : creating thread, 2
+main() : creating thread, 3
+main() : creating thread, 4
+main() : creating thread, 5
+main() : creating thread, 6
+main() : creating thread, 7
+main() : creating thread, 8
+main() : creating thread, 9
+main() : creating thread, 10
+main() : creating thread, 11
+main() : creating thread, 12
+main() : creating thread, 13
+main() : creating thread, 14
+main() : creating thread, 15
+main() : creating thread, 16
+main() : creating thread, 17
+main() : creating thread, 18
+main() : creating thread, 19
+main() : creating thread, 20
+main() : creating thread, 21
+main() : creating thread, 22
+main() : creating thread, 23
+main() : creating thread, 24
+main() : creating thread, 25
+main() : creating thread, 26
+main() : creating thread, 27
+main() : creating thread, 28
+main() : creating thread, 29
+main() : creating thread, 30
+main() : creating thread, 31
+main() : creating thread, 32
+main() : creating thread, 33
+main() : creating thread, 34
+main() : creating thread, 35
+main() : creating thread, 36
+main() : creating thread, 37
+main() : creating thread, 38
+main() : creating thread, 39
+main() : creating thread, 40
+main() : creating thread, 41
+main() : creating thread, 42
+main() : creating thread, 43
+main() : creating thread, 44
+main() : creating thread, 45
+main() : creating thread, 46
+main() : creating thread, 47
+Main: program exiting.
+
+Total Process Time :- 15.3293
+Total Area : 25567713
+---------------------------------------------------------------------------------------
+./run -t 96 -f 1000 -e jpg -i ../data/n2_f8/input/
+---------------------------------------------------------------------------------------
+New  Pthread: 96
+New  Frames: 1000
+New  Extension: jpg
+New  Input : ../data/n2_f8/input/
+Total Files Processed = 96000
+main() : creating thread, 0
+main() : creating thread, 1
+main() : creating thread, 2
+main() : creating thread, 3
+main() : creating thread, 4
+main() : creating thread, 5
+main() : creating thread, 6
+main() : creating thread, 7
+main() : creating thread, 8
+main() : creating thread, 9
+main() : creating thread, 10
+main() : creating thread, 11
+main() : creating thread, 12
+main() : creating thread, 13
+main() : creating thread, 14
+main() : creating thread, 15
+main() : creating thread, 16
+main() : creating thread, 17
+main() : creating thread, 18
+main() : creating thread, 19
+main() : creating thread, 20
+main() : creating thread, 21
+main() : creating thread, 22
+main() : creating thread, 23
+main() : creating thread, 24
+main() : creating thread, 25
+main() : creating thread, 26
+main() : creating thread, 27
+main() : creating thread, 28
+main() : creating thread, 29
+main() : creating thread, 30
+main() : creating thread, 31
+main() : creating thread, 32
+main() : creating thread, 33
+main() : creating thread, 34
+main() : creating thread, 35
+main() : creating thread, 36
+main() : creating thread, 37
+main() : creating thread, 38
+main() : creating thread, 39
+main() : creating thread, 40
+main() : creating thread, 41
+main() : creating thread, 42
+main() : creating thread, 43
+main() : creating thread, 44
+main() : creating thread, 45
+main() : creating thread, 46
+main() : creating thread, 47
+main() : creating thread, 48
+main() : creating thread, 49
+main() : creating thread, 50
+main() : creating thread, 51
+main() : creating thread, 52
+main() : creating thread, 53
+main() : creating thread, 54
+main() : creating thread, 55
+main() : creating thread, 56
+main() : creating thread, 57
+main() : creating thread, 58
+main() : creating thread, 59
+main() : creating thread, 60
+main() : creating thread, 61
+main() : creating thread, 62
+main() : creating thread, 63
+main() : creating thread, 64
+main() : creating thread, 65
+main() : creating thread, 66
+main() : creating thread, 67
+main() : creating thread, 68
+main() : creating thread, 69
+main() : creating thread, 70
+main() : creating thread, 71
+main() : creating thread, 72
+main() : creating thread, 73
+main() : creating thread, 74
+main() : creating thread, 75
+main() : creating thread, 76
+main() : creating thread, 77
+main() : creating thread, 78
+main() : creating thread, 79
+main() : creating thread, 80
+main() : creating thread, 81
+main() : creating thread, 82
+main() : creating thread, 83
+main() : creating thread, 84
+main() : creating thread, 85
+main() : creating thread, 86
+main() : creating thread, 87
+main() : creating thread, 88
+main() : creating thread, 89
+main() : creating thread, 90
+main() : creating thread, 91
+main() : creating thread, 92
+main() : creating thread, 93
+main() : creating thread, 94
+main() : creating thread, 95
+Main: program exiting.
+
+Total Process Time :- 60.878
+Total Area : 55436526
+---------------------------------------------------------------------------------------
+./run -t 192 -f 1000 -e jpg -i ../data/n2_f8/input/
+---------------------------------------------------------------------------------------
+New  Pthread: 192
+New  Frames: 1000
+New  Extension: jpg
+New  Input : ../data/n2_f8/input/
+Total Files Processed = 192000
+main() : creating thread, 0
+main() : creating thread, 1
+main() : creating thread, 2
+main() : creating thread, 3
+main() : creating thread, 4
+main() : creating thread, 5
+main() : creating thread, 6
+main() : creating thread, 7
+main() : creating thread, 8
+main() : creating thread, 9
+main() : creating thread, 10
+main() : creating thread, 11
+main() : creating thread, 12
+main() : creating thread, 13
+main() : creating thread, 14
+main() : creating thread, 15
+main() : creating thread, 16
+main() : creating thread, 17
+main() : creating thread, 18
+main() : creating thread, 19
+main() : creating thread, 20
+main() : creating thread, 21
+main() : creating thread, 22
+main() : creating thread, 23
+main() : creating thread, 24
+main() : creating thread, 25
+main() : creating thread, 26
+main() : creating thread, 27
+main() : creating thread, 28
+main() : creating thread, 29
+main() : creating thread, 30
+main() : creating thread, 31
+main() : creating thread, 32
+main() : creating thread, 33
+main() : creating thread, 34
+main() : creating thread, 35
+main() : creating thread, 36
+main() : creating thread, 37
+main() : creating thread, 38
+main() : creating thread, 39
+main() : creating thread, 40
+main() : creating thread, 41
+main() : creating thread, 42
+main() : creating thread, 43
+main() : creating thread, 44
+main() : creating thread, 45
+main() : creating thread, 46
+main() : creating thread, 47
+main() : creating thread, 48
+main() : creating thread, 49
+main() : creating thread, 50
+main() : creating thread, 51
+main() : creating thread, 52
+main() : creating thread, 53
+main() : creating thread, 54
+main() : creating thread, 55
+main() : creating thread, 56
+main() : creating thread, 57
+main() : creating thread, 58
+main() : creating thread, 59
+main() : creating thread, 60
+main() : creating thread, 61
+main() : creating thread, 62
+main() : creating thread, 63
+main() : creating thread, 64
+main() : creating thread, 65
+main() : creating thread, 66
+main() : creating thread, 67
+main() : creating thread, 68
+main() : creating thread, 69
+main() : creating thread, 70
+main() : creating thread, 71
+main() : creating thread, 72
+main() : creating thread, 73
+main() : creating thread, 74
+main() : creating thread, 75
+main() : creating thread, 76
+main() : creating thread, 77
+main() : creating thread, 78
+main() : creating thread, 79
+main() : creating thread, 80
+main() : creating thread, 81
+main() : creating thread, 82
+main() : creating thread, 83
+main() : creating thread, 84
+main() : creating thread, 85
+main() : creating thread, 86
+main() : creating thread, 87
+main() : creating thread, 88
+main() : creating thread, 89
+main() : creating thread, 90
+main() : creating thread, 91
+main() : creating thread, 92
+main() : creating thread, 93
+main() : creating thread, 94
+main() : creating thread, 95
+main() : creating thread, 96
+main() : creating thread, 97
+main() : creating thread, 98
+main() : creating thread, 99
+main() : creating thread, 100
+main() : creating thread, 101
+main() : creating thread, 102
+main() : creating thread, 103
+main() : creating thread, 104
+main() : creating thread, 105
+main() : creating thread, 106
+main() : creating thread, 107
+main() : creating thread, 108
+main() : creating thread, 109
+main() : creating thread, 110
+main() : creating thread, 111
+main() : creating thread, 112
+main() : creating thread, 113
+main() : creating thread, 114
+main() : creating thread, 115
+main() : creating thread, 116
+main() : creating thread, 117
+main() : creating thread, 118
+main() : creating thread, 119
+main() : creating thread, 120
+main() : creating thread, 121
+main() : creating thread, 122
+main() : creating thread, 123
+main() : creating thread, 124
+main() : creating thread, 125
+main() : creating thread, 126
+main() : creating thread, 127
+main() : creating thread, 128
+main() : creating thread, 129
+main() : creating thread, 130
+main() : creating thread, 131
+main() : creating thread, 132
+main() : creating thread, 133
+main() : creating thread, 134
+main() : creating thread, 135
+main() : creating thread, 136
+main() : creating thread, 137
+main() : creating thread, 138
+main() : creating thread, 139
+main() : creating thread, 140
+main() : creating thread, 141
+main() : creating thread, 142
+main() : creating thread, 143
+main() : creating thread, 144
+main() : creating thread, 145
+main() : creating thread, 146
+main() : creating thread, 147
+main() : creating thread, 148
+main() : creating thread, 149
+main() : creating thread, 150
+main() : creating thread, 151
+main() : creating thread, 152
+main() : creating thread, 153
+main() : creating thread, 154
+main() : creating thread, 155
+main() : creating thread, 156
+main() : creating thread, 157
+main() : creating thread, 158
+main() : creating thread, 159
+main() : creating thread, 160
+main() : creating thread, 161
+main() : creating thread, 162
+main() : creating thread, 163
+main() : creating thread, 164
+main() : creating thread, 165
+main() : creating thread, 166
+main() : creating thread, 167
+main() : creating thread, 168
+main() : creating thread, 169
+main() : creating thread, 170
+main() : creating thread, 171
+main() : creating thread, 172
+main() : creating thread, 173
+main() : creating thread, 174
+main() : creating thread, 175
+main() : creating thread, 176
+main() : creating thread, 177
+main() : creating thread, 178
+main() : creating thread, 179
+main() : creating thread, 180
+main() : creating thread, 181
+main() : creating thread, 182
+main() : creating thread, 183
+main() : creating thread, 184
+main() : creating thread, 185
+main() : creating thread, 186
+main() : creating thread, 187
+main() : creating thread, 188
+main() : creating thread, 189
+main() : creating thread, 190
+main() : creating thread, 191
+Main: program exiting.
+
+Total Process Time :- 126.566
+Total Area : 113730927
+---------------------------------------------------------------------------------------

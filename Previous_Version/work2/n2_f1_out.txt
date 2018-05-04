@@ -1,0 +1,138 @@
+g++ -g -o run WormSeg.cpp -lpthread
+./run -t 1 -f 1000 -e jpeg -i ../data/n2_f1/input/ -l ../data/n2_f1/log/log.txt -s 400 -p 6
+---------------------------------------------------------------------------------------
+New  Pthread: 1
+New  Frames: 1000
+New  Extension: jpeg
+New  Input : ../data/n2_f1/input/
+New  Log File: ../data/n2_f1/log/log.txt
+New  Search_win_size: 400
+New  Paging: 6
+Total Files Processed = 1000
+File Won't openmain() : creating thread, 0
+Main: program exiting.
+
+Total Process Time :- 16.2001
+Total Area : 520019
+---------------------------------------------------------------------------------------
+./run -t 2 -f 1000 -e jpeg -i ../data/n2_f1/input/ -l ../data/n2_f1/log/log.txt -s 400 -p 6
+---------------------------------------------------------------------------------------
+New  Pthread: 2
+New  Frames: 1000
+New  Extension: jpeg
+New  Input : ../data/n2_f1/input/
+New  Log File: ../data/n2_f1/log/log.txt
+New  Search_win_size: 400
+New  Paging: 6
+Total Files Processed = 2000
+File Won't openmain() : creating thread, 0
+main() : creating thread, 1
+Main: program exiting.
+
+Total Process Time :- 16.5819
+Total Area : 986441
+---------------------------------------------------------------------------------------
+./run -t 4 -f 1000 -e jpeg -i ../data/n2_f1/input/ -l ../data/n2_f1/log/log.txt -s 400 -p 6
+---------------------------------------------------------------------------------------
+New  Pthread: 4
+New  Frames: 1000
+New  Extension: jpeg
+New  Input : ../data/n2_f1/input/
+New  Log File: ../data/n2_f1/log/log.txt
+New  Search_win_size: 400
+New  Paging: 6
+Total Files Processed = 4000
+File Won't openmain() : creating thread, 0
+main() : creating thread, 1
+main() : creating thread, 2
+main() : creating thread, 3
+Main: program exiting.
+
+Total Process Time :- 16.8844
+Total Area : 1965890
+---------------------------------------------------------------------------------------
+./run -t 8 -f 1000 -e jpeg -i ../data/n2_f1/input/ -l ../data/n2_f1/log/log.txt -s 400 -p 6
+---------------------------------------------------------------------------------------
+New  Pthread: 8
+New  Frames: 1000
+New  Extension: jpeg
+New  Input : ../data/n2_f1/input/
+New  Log File: ../data/n2_f1/log/log.txt
+New  Search_win_size: 400
+New  Paging: 6
+Total Files Processed = 8000
+File Won't openmain() : creating thread, 0
+main() : creating thread, 1
+main() : creating thread, 2
+main() : creating thread, 3
+main() : creating thread, 4
+main() : creating thread, 5
+main() : creating thread, 6
+main() : creating thread, 7
+Main: program exiting.
+
+Total Process Time :- 18.4392
+Total Area : 4039116
+---------------------------------------------------------------------------------------
+./run -t 12 -f 1000 -e jpeg -i ../data/n2_f1/input/ -l ../data/n2_f1/log/log.txt -s 400 -p 6
+---------------------------------------------------------------------------------------
+New  Pthread: 12
+New  Frames: 1000
+New  Extension: jpeg
+New  Input : ../data/n2_f1/input/
+New  Log File: ../data/n2_f1/log/log.txt
+New  Search_win_size: 400
+New  Paging: 6
+Total Files Processed = 12000
+File Won't openmain() : creating thread, 0
+main() : creating thread, 1
+main() : creating thread, 2
+main() : creating thread, 3
+main() : creating thread, 4
+main() : creating thread, 5
+main() : creating thread, 6
+main() : creating thread, 7
+main() : creating thread, 8
+main() : creating thread, 9
+main() : creating thread, 10
+main() : creating thread, 11
+Main: program exiting.
+
+Total Process Time :- 19.6445
+Total Area : 6000951
+---------------------------------------------------------------------------------------
+./run -t 24 -f 1000 -e jpeg -i ../data/n2_f1/input/ -l ../data/n2_f1/log/log.txt -s 400 -p 6
+---------------------------------------------------------------------------------------
+New  Pthread: 24
+New  Frames: 1000
+New  Extension: jpeg
+New  Input : ../data/n2_f1/input/
+New  Log File: ../data/n2_f1/log/log.txt
+New  Search_win_size: 400
+New  Paging: 6
+Total Files Processed = 24000
+File Won't openmain() : creating thread, 0
+main() : creating thread, 1
+main() : creating thread, 2
+main() : creating thread, 3
+main() : creating thread, 4
+main() : creating thread, 5
+main() : creating thread, 6
+main() : creating thread, 7
+main() : creating thread, 8
+main() : creating thread, 9
+main() : creating thread, 10
+main() : creating thread, 11
+main() : creating thread, 12
+main() : creating thread, 13
+main() : creating thread, 14
+main() : creating thread, 15
+main() : creating thread, 16
+main() : creating thread, 17
+main() : creating thread, 18
+main() : creating thread, 19
+main() : creating thread, 20
+main() : creating thread, 21
+main() : creating thread, 22
+main() : creating thread, 23
+Makefile:16: recipe for target 'wormAll2' failed

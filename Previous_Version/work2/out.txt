@@ -1,0 +1,16 @@
+g++ -g -o run WormSeg.cpp -lpthread 
+./run -t 1
+---------------------------------------------------------------------------------------
+New  Pthread: 1
+Total Files Processed = 1000
+main() : creating thread, 0
+Main: program exiting.
+
+Total Process Time :- 19.6433
+---------------------------------------------------------------------------------------
+./run -t 2
+---------------------------------------------------------------------------------------
+New  Pthread: 2
+Total Files Processed = 2000
+main() : creating thread, 0
+main() : creating thread, 1
